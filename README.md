@@ -1,10 +1,10 @@
-# 🔢 8-Bit ALU UVM Verification Project
+# 8-Bit ALU UVM Verification Project
 
 This repository contains a complete **UVM-based testbench** for an 8-bit Arithmetic Logic Unit (ALU), developed as part of a learning project in digital verification.
 
 ---
 
-## 📌 Project Description
+## Project Description
 
 The **Design Under Test (DUT)** is a simple 8-bit ALU capable of performing four operations:
 
@@ -17,19 +17,19 @@ The **Design Under Test (DUT)** is a simple 8-bit ALU capable of performing four
 
 ---
 
-## 🧪 Testbench Features
+## Testbench Features
 
 This UVM testbench verifies the ALU using a **constrained-random verification** flow:
 
-- ✅ **Randomized Inputs**: Operands `a` and `b`, and operation select `sel`
-- 🧠 **Scoreboard**: Compares DUT result with expected model
-- 📡 **Monitor**: Captures DUT transactions from the interface
-- 📬 **Driver**: Drives inputs to the DUT from the sequence
-- 🔄 **Sequencer**: Coordinates sequences and transactions
-- 🔄 **Sequence**: Generates randomized stimulus
-- 🧱 **Agent**: Wraps monitor, driver, and sequencer
-- 🧪 **Environment**: Instantiates the agent and scoreboard
-- 🧫 **Test**: Top-level test class that starts the sequence
+- **Randomized Inputs**: Operands `a` and `b`, and operation select `sel`
+- **Scoreboard**: Compares DUT result with expected model
+- **Monitor**: Captures DUT transactions from the interface
+- **Driver**: Drives inputs to the DUT from the sequence
+- **Sequencer**: Coordinates sequences and transactions
+- **Sequence**: Generates randomized stimulus
+- **Agent**: Wraps monitor, driver, and sequencer
+- **Environment**: Instantiates the agent and scoreboard
+- **Test**: Top-level test class that starts the sequence
 
 ---
 
@@ -51,16 +51,16 @@ This UVM testbench verifies the ALU using a **constrained-random verification** 
 ├── sim/
 │   └── run.f                   # File list for simulation
 ```
-## 🛠️ How to Run
+## How to Run
 
-### 🧾 Prerequisites
+### Prerequisites
 
 - ✅ SystemVerilog simulator (e.g., **QuestaSim**, **Synopsys VCS**, **Aldec Riviera-PRO**)
 - ✅ UVM library (usually bundled with the simulator)
 
 ---
 
-### ▶️ Simulation Steps (QuestaSim Example)
+### Simulation Steps (QuestaSim Example)
 
 ```bash
 # Compile all design and testbench files
